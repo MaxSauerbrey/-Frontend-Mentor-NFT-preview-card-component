@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="esp">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | NFT preview card component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
 </head>
 
 <body>
-
-    Equilibrium #3429 Our Equilibrium collection promotes balance and calm. 0.041 ETH 3 days left Creation of Jules Wyvern
-
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
-    </div>
-</body>
-</htm
+    <!--/ card -->
+    <article class="card">
+        <!--/ card header -->
+        <header class="card__header">
+            <img src="images/image-equilibrium.jpg" alt="main-image">
+        </header>
+        <!--/ card body  -->
+        <section class="card__body">
+            <!--/ card body title -->
+            <h1 class="card__text card__text--title">Equilibrium #3429 </h1>
+            <!--/ card body paragraph -->
+            <h2 class="card__text card__text--description">Our Equilibrium collection promotes balance and calm.</h2>
+            card
+            <!--/ card body footer  -->
+            <div>
+                <!--/ card body footer left side -->
+                <div card__left>
+                    <img src="images/icon-ethereum.svg" alt="ethereum icon">
+                    <span>0.041 ETH</span>
+                </div>
+                <!--/ card body footer right side -->
+                <div card__right>
+                    <img src="images/icon-clock.svg" alt="">
+                    <span>3 days left </span>
+                </div>
+            </div>
+        </section>
+        <!--/ card footer-->
+        <footer class="card__footer">
+            <img class="card__avatar" src="images/image-avatar.png" alt="image avatar">
+            <h3 class="card__text--footer ">Creation of <span card__text--footer>Jules Wyvern</span></h3>
+        </footer>
+    </article>
