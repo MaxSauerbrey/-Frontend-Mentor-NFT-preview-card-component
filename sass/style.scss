@@ -1,0 +1,9 @@
+        @use 'sass:map';
+        @use 'sass:list';
+        @import 'base/reset.scss';
+        @import 'base/typography.scss';
+        @import 'utils/variables.scss';
+        @import 'utils/function.scss';
+        @import 'layout/header.scss';
+        @import 'layout/main.scss';
+        @import 'layout/footer.scss';
