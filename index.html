@@ -6,43 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <!--/ style -->
-    <link rel="stylesheet" href="style.css">
+    <!--/ Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--/ Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--/ Title -->
     <title>Frontend Mentor | NFT preview card component</title>
 
 </head>
 
 <body>
-    <!--/ card -->
-    <article class="card">
-        <!--/ card header -->
-        <header class="card__header">
-            <img src="images/image-equilibrium.jpg" alt="main-image">
-        </header>
-        <!--/ card body  -->
-        <section class="card__body">
-            <!--/ card body title -->
-            <h1 class="card__text card__text--title">Equilibrium #3429 </h1>
-            <!--/ card body paragraph -->
-            <h2 class="card__text card__text--description">Our Equilibrium collection promotes balance and calm.</h2>
-            card
-            <!--/ card body footer  -->
-            <div>
-                <!--/ card body footer left side -->
-                <div card__left>
-                    <img src="images/icon-ethereum.svg" alt="ethereum icon">
-                    <span>0.041 ETH</span>
+    <main>
+        <!--/ card -->
+        <article class="card">
+            <!--/ card header -->
+            <header class="card__header">
+                <img class="card__image" src="images/image-equilibrium.jpg" alt="main-image">
+            </header>
+            <!--/ card body  -->
+            <section class="card__body">
+                <!--/ card body title -->
+                <h1 class="card__text card__text--title">Equilibrium #3429 </h1>
+                <!--/ card body paragraph -->
+                <h2 class="card__text card__text--description">Our Equilibrium collection promotes balance and calm.</h2>
+                <!--/ card body footer  -->
+                <div class="card__container">
+                    <!--/ card body footer left side -->
+                    <div class="card__left">
+                        <img src="images/icon-ethereum.svg" alt="ethereum icon">
+                        <span>0.041 ETH</span>
+                    </div>
+                    <!--/ card body footer right side -->
+                    <div class="card__right">
+                        <img src="images/icon-clock.svg" alt="">
+                        <span>3 days left </span>
+                    </div>
                 </div>
-                <!--/ card body footer right side -->
-                <div card__right>
-                    <img src="images/icon-clock.svg" alt="">
-                    <span>3 days left </span>
-                </div>
-            </div>
-        </section>
-        <!--/ card footer-->
-        <footer class="card__footer">
-            <img class="card__avatar" src="images/image-avatar.png" alt="image avatar">
-            <h3 class="card__text--footer ">Creation of <span card__text--footer>Jules Wyvern</span></h3>
-        </footer>
-    </article>
+            </section>
+            <!--/ card footer-->
+            <footer class="card__footer">
+                <img class="card__avatar" src="images/image-avatar.png" alt="image avatar">
+                <h3 class="card__text--footer ">Creation of <span card__text--footer>Jules Wyvern</span></h3>
+            </footer>
+        </article>
+    </main>
+</body>
