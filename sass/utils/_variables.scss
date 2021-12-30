@@ -1,14 +1,18 @@
 //!Colours //
 ///Primary //
-// $primary:;
-// $secondary:;
-// $tertiary:;
+$primary:hsl(215, 51%, 70%);
+$secondary:hsl(178, 100%, 50%);
 // /// Neutral ///
-// $neutral:;
+$main-bg-1:hsl(217, 54%, 11%);
+$main-bg-2:hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
 // //! Selector colors */
-// $selector_1: '--primary';
-// $selector_2: '--secondary';
-// $selector_3: '--tertiary';
-// $selector_4: '--neutral';
+$selector_1: '--primary';
+$selector_2: '--secondary';
+$selector_3: '--main-bg-1';
+$selector_4: '--main-bg-2';
+$selector_5: '--line';
+$selector_6: '--white';
 // //! Font size
-// $general-font-size:16px;
+$general-font-size:16px;

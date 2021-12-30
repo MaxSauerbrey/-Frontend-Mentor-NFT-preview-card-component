@@ -70,4 +70,147 @@ p {
   letter-spacing: 0.02rem;
 }
 
+/*root */
+:root {
+  --primary: #8bacda;
+  --secondary: #00fff7;
+  --main-bg-1: #0d192b;
+  --main-bg-2: #14253d;
+  --line: #2f415b;
+  --white: white;
+}
+
+/* Body style */
+body {
+  min-height: 99vh;
+  background-color: #0d192b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  width: 22.5rem;
+}
+
+/* Card style */
+.card {
+  position: relative;
+  bottom: 10px;
+  border-radius: 0.6rem;
+  background-color: #14253d;
+  height: 38.4375rem;
+  box-shadow: 0rem 1.5rem 0rem 0.8rem #0c1627, 0rem 1rem 0rem 3rem #0c182a;
+}
+.card__image {
+  margin-top: 1rem;
+  width: 90%;
+  height: 90%;
+  border-radius: 0.5rem;
+}
+.card__header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__header:before {
+  content: "";
+  position: absolute;
+  top: 15.5px;
+  left: 17px;
+  height: 95%;
+  width: 90%;
+}
+.card__header:hover::before {
+  background-color: rgba(0, 255, 247, 0.5);
+  background-image: url(../images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.card__text--title {
+  /* Title card style */
+  font-size: 1.4625rem;
+  font-weight: bold;
+  margin: 1.25rem 1rem;
+  color: white;
+}
+.card__text--title:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+.card__text--description {
+  color: #8bacda;
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+}
+.card__text--footer {
+  height: 1rem;
+  font-size: 1rem;
+  color: #8bacda;
+  cursor: pointer;
+}
+.card__text--footer span {
+  color: white;
+}
+.card__text--footer span:hover {
+  color: #00fff7;
+}
+.card__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.card__left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #00fff7;
+}
+.card__right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #8bacda;
+}
+.card__footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 4rem;
+  margin-left: 1rem;
+}
+.card__avatar {
+  height: 1.75rem;
+  border: thin solid white;
+  border-radius: 50%;
+  margin-right: 0.9375rem;
+}
+.card__divider {
+  border-top: 1px solid #2f415b;
+  height: 0.1px;
+  max-width: 90%;
+  padding: 0;
+  margin: 30px auto 10px auto;
+}
+.card__eth {
+  margin-right: 0.3125rem;
+}
+.card__countdown {
+  margin-left: 0.3125rem;
+}
+
+/* media queries */
+@media only screen and (max-width: 380px) {
+  main {
+    width: 90%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
