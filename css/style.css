@@ -106,9 +106,9 @@ body {
 }
 .card__text--title {
   color: white;
-  font-size: 1.4625rem;
+  font-size: 1.5625rem;
   font-weight: 600;
-  margin: 20px 0px;
+  margin: 1.5625rem 0 1.25rem 0;
   width: fit-content;
 }
 .card__text--title:hover {
@@ -120,6 +120,7 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.6875rem;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 .card__text--footer {
@@ -139,6 +140,7 @@ body {
 .card__container {
   display: flex;
   justify-content: space-between;
+  margin-top: 1.5625rem;
 }
 .card__left {
   display: flex;
@@ -159,6 +161,8 @@ body {
   font-size: 1rem;
   color: #8bacda;
   cursor: pointer;
+  margin-bottom: 0.3125rem;
+  margin-top: 0.3125rem;
 }
 .card__eth {
   margin-right: 0.3125rem;
